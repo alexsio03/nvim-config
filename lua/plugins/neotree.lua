@@ -69,6 +69,7 @@ return {
         },
       },
     })
-    vim.keymap.set("n", "<C-x>", ":Neotree filesystem toggle<CR>")
+    vim.keymap.set("n", "<C-x>", ":Neotree toggle<CR>")
+    vim.keymap.set("n", "<C-c>", ":Neotree last<CR>")
   end,
 }
