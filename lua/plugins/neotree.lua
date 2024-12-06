@@ -69,7 +69,7 @@ return {
         },
       },
     })
-    vim.keymap.set("n", "<C-x>", ":Neotree toggle<CR>")
-    vim.keymap.set("n", "<C-c>", ":Neotree last<CR>")
+    vim.keymap.set("n", "<C-x>", ":Neotree show<CR>")
+    vim.keymap.set("n", "<C-S-x>", ":Neotree close<CR>")
   end,
 }
